@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <form>
+        
+            class: isrequired<br>
+            <input type="text" class="isrequired"><br>
+        
+            class: isnumber<br>
+            <input type="text" class="isnumber"><br>
+        
+        
+            class: isdate<br>
+            <input type="text" class="isdate"><br>
+
+            class: isemail<br>
+            <input type="text" class="email"><br>
+
+            class: issecurepassword<br>
+            <input type="text" class="pass"><br>
+            <input type="button" value="enviar" onclick="req()"> 
+        </form>
+
+        <script src="xForm.js" type="text/javascript"></script>
+        <script type="text/javascript">
+             function req() {
+                //_('isrequired').isrequired();
+                // _('isnumber').isnumber();
+                _('email').isemail();
+            }
+
+        </script>
+    </body>
+</html>
